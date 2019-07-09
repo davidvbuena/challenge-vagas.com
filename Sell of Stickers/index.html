@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+      <title>Teste Frontend VAGAS.com</title>
+      <meta charset="UTF-8" />
+      <link rel="stylesheet" href="./styles.css" />
+
+</head>
+
+<body>
+
+	<form action="" name="compraStickers">
+
+		<div class="box">
+
+				<div class="header">
+				
+						<div class="title">
+							
+									Formulário<br />
+									para compra de<br />
+								<span>Pacote de Stickers</span>
+				
+						</div>
+			
+				</div>
+			
+			<div class="space-md"></div>
+			
+			<div class="form">
+				
+				<div class="fieldset">
+					
+					<div class="label">Quais stickers:</div>
+					
+					<div class="space"></div>
+				
+				</div>
+				
+				<div class="Espacolateral"> <!-- Checkbox 01 - (React) -->
+					
+					<div id="CustomCheckBoxReact" class="">
+						
+						<input type="checkbox" id="React" onclick="" />
+						
+						<label for="React">
+							
+							<div class="EstiloSVG-Checkbox" id="">
+								
+									<svg id="SVGReact" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+
+										<path  d="M3.42857 0C1.536 0 0 1.536 0 3.42857V20.5714C0 22.464 1.536 24 3.42857
+											24H20.5714C22.464 24 24 22.464 24 20.5714V3.42857C24 1.536 22.464 0 20.5714 
+											0H3.42857ZM10.2857 17.8526L5.64514 13.212L8.06914 10.788L10.2857 13.0046L16.788 
+											6.50229L19.212 8.92629L10.2857 17.8526Z"/>
+									 
+									 </svg>
+
+							</div>
+
+						</label>
+						
+						<div class="Espacolateral">
+
+							<span>React</span>
+						
+						</div>
+					
+					</div>
+				
+				</div>
+				
+				<div class="space"></div>
+				
+				<div class="Espacolateral"> <!-- Checkbox 02 - (Vue) -->
+					
+					<div id="CustomCheckBoxVue" class="">
+						
+						<input type="checkbox" id="Vue" onclick="" />
+						
+						<label for="Vue">
+							
+							<div class="EstiloSVG-Checkbox" id="">
+								
+								<svg id="SVGVue" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+
+									<path d="M3.42857 0C1.536 0 0 1.536 0 3.42857V20.5714C0 22.464 1.536 24 3.42857
+										24H20.5714C22.464 24 24 22.464 24 20.5714V3.42857C24 1.536 22.464 0 20.5714 
+										0H3.42857ZM10.2857 17.8526L5.64514 13.212L8.06914 10.788L10.2857 13.0046L16.788 
+										6.50229L19.212 8.92629L10.2857 17.8526Z"/>
+
+								</svg>
+							
+							</div>
+						
+						</label>
+						
+						<div class="Espacolateral">
+							
+							<span>Vue</span>
+						
+						</div>
+					
+					</div>
+				
+				</div>
+				
+				<div class="space"></div>
+				
+				<div class="Espacolateral"> <!-- Checkbox 03 - (Angular) -->
+					
+					<div id="CustomCheckBoxAngular" class="">
+						
+						<input type="checkbox" id="Angular" onclick="" />
+						
+						<label for="Angular">
+							
+							<div class="EstiloSVG-Checkbox" id="">
+								
+								<svg id="SVGAngular" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+									
+									<path d="M3.42857 0C1.536 0 0 1.536 0 3.42857V20.5714C0 22.464 1.536 24 3.42857
+										24H20.5714C22.464 24 24 22.464 24 20.5714V3.42857C24 1.536 22.464 0 20.5714 
+										0H3.42857ZM10.2857 17.8526L5.64514 13.212L8.06914 10.788L10.2857 13.0046L16.788 
+										6.50229L19.212 8.92629L10.2857 17.8526Z"/>
+								
+								</svg>
+							
+							</div>
+						
+						</label>
+						
+						<div class="Espacolateral">
+							
+							<span>Angular</span>
+						
+						</div>
+					
+					</div>
+				
+				</div>
+				
+				<div class="space"></div>
+				
+				<div class="fieldset">
+					
+					<div class="label">Quantos stickers de cada?</div>
+					
+					<div class="space"></div>
+					<div class="counter">
+						
+						<label class="BotoesSomaSubtracao" id="BotaoSubtracao" onclick="" value=""> <!--botão "-" -->
+							
+							<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42">
+								
+								<path d="M4.667 0A4.668 4.668 0 0 0 0 4.667v32.666A4.668 4.668 0 0 0 4.667 42h32.666A4.668
+								 4.668 0 0 0 42 37.333V4.667A4.668 4.668 0 0 0 37.333 0H4.667zm28 23.333H9.333v-4.666h23.334v4
+								 .666z" />
+								
+							</svg>
+
+                                    </label>
+
+                                    <input type="text" id="QuantidadeStickers" placeholder="" value="0" minlength="1" maxlength="3" /><!-- Contador -->
+
+                                    <label class="BotoesSomaSubtracao" id="BotaoSoma" onclick="">  <!--botão "+" -->
+
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42">
+                                          <path d="M4.667 42h32.666A4.668 4.668 0 0 0 42 37.333V4.667A4.668 4.668 0 0 0 37.333 0H4.667A4.668 4.668 0 0 0 0 4.667v32.666A4.668 4.668 0 0 0 4.667 42zm4.666-23.333h9.334V9.333h4.666v9.334h9.334v4.666h-9.334v9.334h-4.666v-9.334H9.333v-4.666z" /></svg>
+
+                                    </label>
+
+                                    <p id="alert"></p>
+
+                              </div>
+
+                              <div class="space"></div>
+
+                        </div>
+
+                        <div class="space"></div>
+
+                        <div class="fieldset">
+
+                              <div id="Observacoes" class="label">Observações:
+
+                              <div class="space"></div>                              
+
+                              <textarea id="textObservacoes" name="descricao" placeholder="Alguma dúvida? Recado?"></textarea></div>
+
+                        </div>
+
+                        <div class="space"></div>
+
+                        <div class="footer">
+
+                              <div class="SendSucess"id="FormularioEnviadoSucesso"></div>
+
+                              <button type="button" class ="enviar" id="BotaoEnviar" value="" onclick="">Enviar</button>
+
+                        </div>
+
+                  </div>
+            </div>
+
+      </form>
+      <script src="index.js"></script>
+</body>
+</html>

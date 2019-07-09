@@ -1,0 +1,242 @@
+@import url("https://rsms.me/inter/inter.css");
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rebeccapurple;
+  color: #071723;
+}
+
+.box {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 10px 22px 34px 0 rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  overflow: hidden;
+  width: 550px;
+}
+
+.space {
+  margin-bottom: 16px;
+}
+
+.space-md {
+  margin-bottom: 32px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header {
+  background: url(images/header.png) center right no-repeat;
+  background-size: cover;
+  height: 187px;
+  padding: 23px 36px;
+  width: 100%;
+}
+
+.header .title {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.header .title span {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.46;
+}
+
+.form textarea {
+  background: #dde3e9;
+  border: 1px solid #2f3676;
+  border-radius: 8px;
+  color: #071723;
+  font-family: Inter;
+  font-size: 14px;
+  height: 140px;
+  line-height: 24px;
+  padding: 16px;
+  resize: none;
+  width: 100%;
+}
+
+.fieldset {
+  padding: 0 32px;
+}
+
+.counter svg {
+  fill: #2f3676;
+}
+
+.counter svg:hover {
+  fill: #191847;
+}
+
+.counter input {
+  background: #dde3e9;
+  border: 1px solid #2f3676;
+  border-radius: 5px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: bold;
+  height: 41px;
+  line-height: 24px;
+  position: relative;
+  right: 2.5px;
+  text-align: center;
+  top: -13.5px;
+  width: 52px;
+}
+
+.footer {
+  background: #dde3e9;
+  display: flex;
+  justify-content: flex-end;
+  padding: 32px;
+}
+
+.enviar {
+  appearance: none;
+  background: #2f3676;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 32px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.enviar:hover {
+  background: #191847;
+  border: 1px solid #2f3676;
+  cursor: pointer;
+}
+
+.BotaoEnviado {
+  appearance: none;
+  background: #c5cfd6;
+  border: 2px solid #555555;
+  border-radius: 7px;
+  color: #555555;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px 32px;
+  position: relative;
+}
+
+.SendSucess {
+  bottom: 37.6%;
+  color: #00c57c;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: bold;
+  left: -8%;
+  line-height: 30px;
+  position: relative;
+  right: 10%;
+}
+/*pt2*/
+.BotoesSomaSubtracao {
+  appearance: none;
+  cursor: pointer;
+  display: inline;
+  height: 100%;
+  position: relative;
+  right: 2.5px;
+}
+
+.Estilo-Checkbox {
+  background: #2f3676;
+  border-radius: 4px;
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+
+.Estilo-Checkbox :hover {
+  height: 24px;
+  width: 24px;
+}
+
+.Estilo-Checkbox svg {
+  fill: #2f3676;
+}
+
+.Estilo-Checkbox svg:hover {
+  fill: #191847;
+  height: 24px;
+  width: 24px;
+}
+
+.Estilo-Checkbox label {
+  cursor: pointer;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+}
+
+.Estilo-Checkbox label:hover {
+  background: #191847;
+  border-radius: 4px;
+  height: 20px;
+  width: 20px;
+}
+
+.Estilo-Checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.Estilo-CheckboxBranco {
+  background: #dde3e9;
+  border-radius: 4px;
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+
+.Espacolateral {
+  /* Empurra o componente um pouco a frente*/
+  padding: 0 32px;
+}
+
+.Espacohorizontal {
+  /* Coloca espaço entre uma div e outra*/
+  margin-bottom: 16px;
+}
+
+.Estilo-Checkbox input[type="checkbox"]:checked + label {
+  background: #c5cfd6;
+  border-radius: 4px;
+}
+
+.Estilo-CheckBoxEnviado {
+  background: #c5cfd6;
+  border-radius: 4px;
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+
+.Estilo-CheckBoxEnviado svg {
+  fill: #c5cfd6;
+}
